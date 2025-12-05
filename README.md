@@ -2,8 +2,6 @@
   <h1><b>ElevateCV</b></h1>
   <p>AI-Powered Resume Analyzer & Career Mentor built using Gemini 2.5 Flash</p>
 
-  <img src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" width="900" />
-
   <br/><br/>
 </div>
 
