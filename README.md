@@ -1,20 +1,93 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <h1><b>ElevateCV</b></h1>
+  <p>AI-Powered Resume Analyzer & Career Mentor built using Gemini 2.5 Flash</p>
+
+  <img src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" width="900" />
+
+  <br/><br/>
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 🚀 Overview
 
-View your app in AI Studio: https://ai.studio/apps/drive/1H1tsTgd8qJ2bugfZ4IgFh78jNJY9J6XZ
+**ElevateCV** is an intelligent, AI-powered Resume Analyzer that evaluates resumes using **Google Gemini 2.5 Flash**, provides actionable improvements, and generates a personalized **Career Roadmap**.
 
-## Run Locally
+The app is built with:
 
-**Prerequisites:**  Node.js
+- **React + Vite + TypeScript**
+- **TailwindCSS**
+- **Recharts**
+- **Lucide Icons**
+- **Gemini Structured Outputs (JSON Schema)**
 
+You can **upload a PDF/JPG/PNG resume** or **paste raw text**.  
+The AI then generates:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- ✅ ATS Score (0–100)  
+- ✅ Keyword match analysis  
+- ✅ Formatting quality  
+- ✅ Quantifiable impact score  
+- ✅ Action verb score  
+- ✅ Grammar issue detection  
+- ✅ Bullet-point rewrites  
+- ✅ Missing skills list  
+- ✅ Professional summary rewrite  
+- ✅ Job role suggestions  
+- ✅ Salary prediction (INR LPA)  
+- ✅ Career roadmap (0–3 / 3–6 / 6+ months)
+
+---
+
+## 🧠 Features
+
+### 📄 Resume Understanding
+Extracts:
+- Name, Email, Experience
+- Skills (technical + soft)
+- Education
+- Work history insights
+
+### 🎯 ATS Scoring Engine
+Breaks down ATS score into:
+- Keyword Match Score  
+- Format Quality  
+- Skill Alignment  
+- Quantifiable Metrics  
+- Action Verb Strength  
+- Grammar Issues  
+
+### ✍️ AI Resume Rewriter
+Automatically rewrites weak bullet points in **Action Verb + Task + Result** format.
+
+### 💼 Job Role Matching
+Suggests best fit job titles with:
+- Match % score
+- Explanation for suitability
+
+### 📈 Salary Estimation
+Predicts realistic **Indian salary range (₹ LPA)** based on skills + roles.
+
+### 🛣 Career Roadmap
+AI creates:
+- Short-term (0–3 months)
+- Mid-term (3–6 months)
+- Long-term (6+ months)  
+learning & career plan.
+
+---
+
+## 🏗 Tech Stack
+
+### Frontend
+- React 19  
+- TypeScript  
+- Vite  
+- TailwindCSS  
+- Lucide-React  
+- Recharts  
+
+### Backend (Next.js API or Express server-safe)
+- Google Gemini API  
+- JSON Schema structured responses  
+- Node.js (server-side secure calls)
