@@ -1,0 +1,5 @@
+{
+  "name": "ElevateCV",
+  "description": "An intelligent resume analyzer and career mentor powered by Gemini 2.5 Flash. Upload your resume to get instant ATS scoring, rewriting suggestions, and personalized career roadmaps.",
+  "requestFramePermissions": []
+}
